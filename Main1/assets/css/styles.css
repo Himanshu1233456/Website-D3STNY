@@ -1,0 +1,258 @@
+#main_bg {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(45deg, rgba(0,232,255,1) 0%, rgb(250,0,255) 100%);
+  background-size: 200% 200%;
+  animation: gradient 3s ease infinite;
+  margin-top: 0;
+  filter: saturate(130%);
+}
+
+#fix_logo {
+  background: linear-gradient(45deg, rgba(0,232,255,1) 0%, rgb(250,0,255) 100%);
+  background-size: 200% 200%;
+  animation: gradient 3s ease infinite;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+#body {
+  position: relative;
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+}
+
+#navtext1 {
+  background: linear-gradient(45deg, rgba(0,232,255,1) 0%, rgb(250,0,255) 100%);
+  background-size: 200% 200%;
+  animation: gradient 3s ease infinite;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+@keyframes rota {
+  from {
+    background: linear-gradient(45deg, rgba(0,232,255,1) 0%, rgb(250,0,255) 100%);
+  }
+  to {
+    background: linear-gradient(360deg, rgba(0,232,255,1) 0%, rgb(250,0,255) 100%);
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+#work {
+  background-color: black;
+}
+
+#navbar {
+  width: 100%;
+  height: 6vh;
+  position: fixed;
+  top: 0;
+}
+
+#name {
+  font-weight: 300;
+}
+
+#nav {
+  z-index: 99;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  background: white;
+  box-shadow: 0px -9px 20px 0px;
+}
+
+#D {
+  opacity: 0%;
+  animation: fade_in 1.1s ease forwards;
+}
+
+#three {
+  opacity: 0%;
+  animation: fade_in 1.1s forwards;
+  animation-delay: 0.15s;
+}
+
+#S {
+  opacity: 0%;
+  animation: fade_in 1.1s forwards;
+  animation-delay: 0.30s;
+}
+
+#T {
+  opacity: 0%;
+  animation: fade_in 1.1s forwards;
+  animation-delay: 0.45s;
+}
+
+#N {
+  opacity: 0%;
+  animation: fade_in 1.1s forwards;
+  animation-delay: 0.60s;
+}
+
+#Y {
+  opacity: 0%;
+  animation: fade_in 1.1s forwards;
+  animation-delay: 0.75s;
+}
+
+@keyframes fade_in {
+  0% {
+    height: 60px;
+    opacity: 0%;
+  }
+  100% {
+    height: 150px;
+    opacity: 100%;
+  }
+}
+
+@keyframes st_float {
+  0% {
+    height: 150px;
+  }
+  50% {
+    height: 140px;
+  }
+  100% {
+    height: 150px;
+  }
+}
+
+#sc_logo, #fb_logo, #spot_logo, #inst_logo {
+  animation: logo_fade_o 0.5s forwards;
+}
+
+#sc_logo:hover, #fb_logo:hover, #spot_logo:hover, #inst_logo:hover {
+  animation: logo_fade 0.2s forwards;
+}
+
+@keyframes logo_opc {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+@keyframes logo_fade {
+  from {
+    filter: grayscale(100%);
+  }
+  to {
+    filter: grayscale(0%);
+  }
+}
+
+@keyframes logo_fade_o {
+  from {
+    filter: grayscale(0%);
+  }
+  to {
+    filter: grayscale(100%);
+  }
+}
+
+#rels {
+  width: 100%;
+  height: 220px;
+  font-family: 'Conv_Prosto Sans Bold';
+  color: rgb(255,255,255);
+  letter-spacing: 5px;
+  font-style: italic;
+  text-decoration: underline;
+  text-align: center;
+  padding-top: 160px;
+  font-size: 48px;
+  background: linear-gradient(45deg, rgba(0,232,255,1) 0%, rgb(250,0,255) 100%);
+  background-size: 200% 200%;
+  animation: gradient 3s ease infinite;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.sc_fade {
+  opacity: 0;
+  transition: opacity 0.7s ease-in;
+}
+
+.sc_fade.appear {
+  opacity: 1;
+}
+
+#emb_tmle {
+  width: 90%;
+  height: 70%;
+}
+
+#emb_sm {
+  width: 90%;
+  height: 80px;
+}
+
+#down_ico {
+  animation: logo_opc 0.75s linear forwards, flt 2.2s ease 0.75s infinite;
+}
+
+@keyframes flt {
+  0% {
+    padding-top: 0px;
+  }
+  50% {
+    padding-top: 15px;
+  }
+  100% {
+    padding-top: 0px;
+  }
+}
+
+#contact {
+  background: linear-gradient(45deg, rgba(0,232,255,1) 0%, rgb(250,0,255) 100%);
+  background-size: 200% 200%;
+  animation: gradient 3s ease infinite;
+}
+
+#cred_text {
+  background: linear-gradient(45deg, rgba(0,232,255,1) 0%, rgb(250,0,255) 100%);
+  background-size: 200% 200%;
+  animation: gradient 3s ease infinite;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+#button_txt {
+  color: rgb(0,0,0);
+  font-style: italic;
+  width: 110px;
+  border-radius: 30px;
+  background: rgba(13,110,253,0);
+  border-width: 2px;
+  border-style: none;
+  font-weight: bold;
+  font-family: Asap, sans-serif;
+  font-size: 20px;
+  background: linear-gradient(45deg, rgba(0,232,255,1) 0%, rgb(250,0,255) 100%);
+  background-size: 200% 200%;
+  animation: gradient 3s ease infinite;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+

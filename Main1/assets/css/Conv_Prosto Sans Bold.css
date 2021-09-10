@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Conv_Prosto Sans Bold';
+	src: url(../../assets/fonts/Prosto%20Sans%20Bold.eot) format('embedded-opentype'),
+	url(../../assets/fonts/Prosto%20Sans%20Bold.woff) format('woff'),
+	url(../../assets/fonts/Prosto%20Sans%20Bold.ttf) format('truetype'),
+	url(../../assets/fonts/Prosto%20Sans%20Bold.svg) format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
